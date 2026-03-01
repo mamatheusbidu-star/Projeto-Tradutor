@@ -1,0 +1,109 @@
+
+
+/* macete profissional
+
+
+
+.traduzir {
+    background-color: red;
+    height: 40px;
+}
+
+.microfone {
+     background-color: blue;
+    height: 40px;
+}
+ comentários em css 
+Class -> classe de identificação (inicia-se com ponto no arq .css)
+*/
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url("/imgs/mapa.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa_maior {
+    background-color: rgba(0, 0, 0, 0.908);
+    width: 500px;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.input-texto {
+    width: 100%;
+    max-width: 470px;
+    height: 90px;
+    border: none;
+    outline: none;
+    background-color: #ffffff1a;
+    border-radius: 15px;
+    color: #ffffff ;
+    font-size: 16px;
+    padding: 15px;
+}
+
+.idioma {
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    padding: 10px;
+    background-color:#ffffff1a ;
+    color: #ffffff;
+    
+}
+option{
+    background-color: #ffffff1a;
+    border-radius: 100%;
+    color: black;
+}
+
+dropdown{
+    background-color: #ffffff1a;
+}
+button {
+    border: none;
+    padding: 10px;
+    border-radius: 100%;
+    background-color: #ffffff1a;
+    cursor: pointer;
+}
+
+.controle{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.titulo_traducao{
+    color: #ffffff99;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.traducao {
+    color: #ded9d9f1;
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+
+.resultado {
+    padding: 15px;
+    background-color: #ffffff1a;
+    border-radius: 15px;
+}
